@@ -17,7 +17,7 @@ int main(void)
 			m = n + '0';
 		} else
 		{
-			m = n + 'a';
+			m = n - 10 + 'a';
 		}
 		putchar(m);
 	}
