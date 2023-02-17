@@ -8,9 +8,8 @@ int main(void)
 {
 	int p;
 
-	for (p = 0; p <= 9; p++)
-	{
-	printf("%d", p);
-	}
+	for (p = 0; p < 10; p++)
+	putchar("%d", p);
+	putcharc('\n');
 	return (0);
 }
