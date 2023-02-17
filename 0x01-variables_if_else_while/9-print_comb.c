@@ -15,10 +15,9 @@ int main(void)
 		while (number_2 < 10)
 		{
 			putchar(number + '0');
-			putchar(',');
-			putchar(' ');
 			putchar(number_2 + '0');
-			putchar(' ');
+			putchar((number_2 == 9) ? '\n' : ',');
+			putchar((number_2 == 9) ? '\n' : ' ');
 
 			number_2++;
 		}
