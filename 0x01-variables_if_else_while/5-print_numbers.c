@@ -10,7 +10,7 @@ int main(void)
 
 	for (p = 0; p < 10; p++)
 	{
-	printf("%d", p);
+	printf("%11d", p);
 	}
 	return (0);
 }
