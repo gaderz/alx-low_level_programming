@@ -6,37 +6,30 @@
  */
 int main(void)
 {
-	int a = 0, b;
+	int a = 0
+		;
+	int b = 1;
 
-	while (a <= 99)
+	while (a < 100)
 	{
-		b = a;
-
-		while (b <= 99)
+		while (b < 100)
 		{
-			int num_1 = a / 10;
-
-			int unit_1 = a % 10;
-
-			int num_2 = b / 10;
-
-			int unit_2 = b % 10;
-
-			putchar(num_1 + '0');
-			putchar(unit_1 + '0');
-			putchar(' ');
-			putchar(num_2 + '0');
-			putchar(unit_2 + '0');
-
-			if (a != 99 || b != 99)
+			if (a != 0 || b != 1)
 			{
 				putchar(',');
 				putchar(' ');
 			}
+			putchar(a / 10 + '0');
+			putchar(a % 10 + '0');
+			putchar(' ');
+			putchar(b / 10 + '0');
+			putchar(b % 10 + '0');
 			b++;
 		}
 		a++;
+		b = a + 1;
 	}
 	putchar('\n');
 	return (0);
 }
+
