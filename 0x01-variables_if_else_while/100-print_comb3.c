@@ -20,7 +20,7 @@ int main(void)
 			if (l != 8 || h != 9)
 			{
 				putchar(',');
-				putchar(' ')
+				putchar(' ');
 			}
 			h++;
 		}
