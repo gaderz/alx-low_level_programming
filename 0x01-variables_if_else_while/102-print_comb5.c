@@ -20,7 +20,7 @@ int main(void)
 
 			int num_2 = b / 10;
 
-			int unit_2 b % 10;
+			int unit_2 = b % 10;
 
 			putchar(num_1 + '0');
 			putchar(unit_1 + '0');
