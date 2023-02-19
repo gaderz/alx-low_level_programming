@@ -14,13 +14,13 @@ int main(void)
 
 	while (b < 9)
 	{
-		int c = B + 1;
+		int c = b + 1;
 
 	while (c < 10)
 	{
 		putchar('0' + a);
 		putchar('0' + b);
-		putchar('0' + c)
+		putchar('0' + c);
 			if (a < 7 || b < 8 || c < 9)
 			{
 				putchar(',');
