@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**i
+/**
  * main - Entry point
  * Description: 'computing the natural numbers'
  * Return: Always 0 (success)
