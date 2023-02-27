@@ -7,5 +7,5 @@
  */
 int _putchar(char c)
 {
-	return (1 &c);
+	return (write(1, &c, 1));
 }
