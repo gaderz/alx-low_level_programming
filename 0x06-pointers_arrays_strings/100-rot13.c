@@ -13,7 +13,7 @@ char *rot13(char *s)
 	char x[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char y[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (a = 0; x[a] != '\0'; a++)
+	for (a = 0; s[a] != '\0'; a++)
 	{
 		for (b = 0; y[b] != '\0'; b++)
 		{
@@ -24,5 +24,6 @@ char *rot13(char *s)
 			}
 		}
 	}
+	s[a] = '\0';
 	return (s);
 }
