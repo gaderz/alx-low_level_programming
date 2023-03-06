@@ -14,3 +14,22 @@ Before you begin this project, you should have a good understanding of the follo
 * Arrays and strings in C
 
 * Basic C programming constructs such as loops, conditional statements, functions, and structures
+
+
+# TASK 0 #
+
+### Welcome to the "Fill Memory with Constant Byte "project"  ###
+
+* This is a function in C programming language that fills a block of memory with a constant byte
+
+* This can be useful in many applications, such as initializing arrays or clearing memory before reuse.
+
+## Function Signature ##
+
+### The function signature for the "fill memory with constant byte" function is as follows:
+
+* This function takes a pointer to the memory block to be filled,
+
+* the value of the constant byte to be used, 
+
+* And the number of bytes to be filled.
