@@ -42,7 +42,7 @@ The memory copying function is used to copy a specified number of bytes from one
 
 This function takes three arguments:
 
-## Parameters
+## Parameters ##
 
 * dest: Pointer to the memory location where the copied data will be stored.
 
@@ -50,16 +50,16 @@ This function takes three arguments:
 
 * n: Number of bytes to be copied.
 
-### Return Value
+### Return Value ###
 
 This function does not return a value.
 
 
-# TASK 2
+# TASK 2 #
 
-## locate-character
+## locate-character ##
 
-This function takes in a string and a character as inputs and searches for the first occurrence of the character in the string. 
+* This function takes in a string and a character as inputs and searches for the first occurrence of the character in the string. 
 
 * It does so by looping through each character in the string and checking if it matches the input character. 
 
@@ -70,9 +70,9 @@ This function takes in a string and a character as inputs and searches for the f
 
 # TASK 3
 
-## prefix_length
+## prefix-length ##
 
-This function takes in a string and a prefix substring as inputs and returns the length of the prefix substring in the input string. 
+* This function takes in a string and a prefix substring as inputs and returns the length of the prefix substring in the input string. 
 
 * It does so by checking if the input string starts with the prefix substring. 
 
@@ -86,13 +86,13 @@ _Output: The length of the prefix substring in the input string. If the prefix i
 
 
 
-# TASK 4
+# TASK 4 ##
 
 
 
 ## search-bytes-in-string ##
 
-The search_bytes-in-string function takes a string and a set of bytes as inputs. 
+* The search_bytes-in-string function takes a string and a set of bytes as inputs. 
 
 * It searches the string for any byte in the byte-set and returns True if at least one byte is found, otherwise it returns False. 
 
@@ -112,11 +112,11 @@ The search_bytes-in-string function takes a string and a set of bytes as inputs.
 
 ##  locate-substring ##
 
-The locate-substring function takes two string inputs: a main-string to search for a sub-string within, and the sub-string to locate within the main-string. 
+* The locate-substring function takes two string inputs: a main-string to search for a sub-string within, and the sub-string to locate within the main-string. 
 
-The function uses the built-in Python string method 'find' to search for the sub-string in the main-string, 
+* The function uses the built-in Python string method 'find' to search for the sub-string in the main-string, 
 
-which returns the index of the first occurrence of the substring, or -1 if the substring is not found.
+* which returns the index of the first occurrence of the substring, or -1 if the substring is not found.
 
 ## Function inputs: ##
 
@@ -124,7 +124,7 @@ which returns the index of the first occurrence of the substring, or -1 if the s
 
 * sub-string: The substring to locate within the main-string (string)
 
-##Function output: ##
+## Function output: ##
 
 * integer: Returns the index of the first character of the substring in the main-string, or -1 if the substring is not found.
 
@@ -135,28 +135,28 @@ which returns the index of the first occurrence of the substring, or -1 if the s
 
 ## print-chessboard ##
 
-The print-chessboard function prints an 8x8 chessboard to the console using ASCII characters. 
+* The print-chessboard function prints an 8x8 chessboard to the console using ASCII characters. 
 
-The board is printed with alternating black and white squares, represented by the characters " " (space) and "#" respectively. 
+* The board is printed with alternating black and white squares, represented by the characters " " (space) and "#" respectively. 
 
-The function uses a nested loop to print each row and column of the chessboard.
+* The function uses a nested loop to print each row and column of the chessboard.
 
 # TASK 7 #
 
 ## print-diagonal-sums ##
 
-The print-diagonal-sums function takes a square matrix of integers as input and calculates the sum of the two diagonals of the matrix. 
+* The print-diagonal-sums function takes a square matrix of integers as input and calculates the sum of the two diagonals of the matrix. 
 
-The function uses two variables, one for each diagonal, to keep track of the running sum of the values on each diagonal. 
+* The function uses two variables, one for each diagonal, to keep track of the running sum of the values on each diagonal. 
 
-The function then prints the sum of the two diagonals to the console.
+* The function then prints the sum of the two diagonals to the console.
 
 
 # TASK 8 #
 
 ## set-char-pointer ##
 
-The set-char-pointer function takes in a pointer to a char and a value to be set, and sets the value of the pointer to the given value
+* The set-char-pointer function takes in a pointer to a char and a value to be set, and sets the value of the pointer to the given value
 
 ## Function input: ##
 
@@ -164,7 +164,7 @@ The set-char-pointer function takes in a pointer to a char and a value to be set
 
 * Value to be set (char)
 
-##Function output: ##
+## Function output: ##
 
 * None
 
