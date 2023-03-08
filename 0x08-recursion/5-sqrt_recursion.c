@@ -12,14 +12,12 @@ int _sqrt(int n, int i);
  */
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n,1));
+	return (_sqrt(n, 1));
 }
 /**
- * _sqrt_helper - Recursive helper function for _sqrt_recursion.
+ * _sqrt - Recursive helper function for _sqrt_recursion.
  * @n: The number to compute the square root of.
- * @low: The lowest possible square root of n.
- * @high: The highest possible square root of n.
- *
+ * @i: The lowest possible square root of n.
  * Return: If n has a natural square root, return the square root.
  *         If n does not have a natural square root, return -1.
  */
