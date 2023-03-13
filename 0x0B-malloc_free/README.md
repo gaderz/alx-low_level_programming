@@ -22,6 +22,33 @@ The dynamic memory allocation functions in C allow you to allocate and free memo
 Dynamic memory allocation is an essential feature of the C programming language, allowing for the creation of data structures whose size can be determined at runtime. 
 The malloc() and free() functions allow for the allocation and deallocation of blocks of memory during program execution, making it possible to manage memory efficientl
 
-* (MALLOC AND FREE)[https://intranet.alxswe.com/rltoken/7q6RmWq86XkUhvmlhrg9bg]
+* [MALLOC AND FREE](https://intranet.alxswe.com/rltoken/7q6RmWq86XkUhvmlhrg9bg)
 
 ## TASK 0 ##
+
+## Float like a butterfly, sting like a bee ##
+
+* mandatory
+Write a function that creates an array of chars, and initializes it with a specific char.
+
+* Prototype: char *create_array(unsigned int size, char c);
+
+* Returns NULL if size = 0
+
+* Returns a pointer to the array, or NULL if it fails.
+
+## TASKE 1 ##
+
+
+## The woman who has no imagination has no wings ##
+
+* mandatory
+Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+
+* Prototype: char *_strdup(char *str);
+
+* The _strdup() function returns a pointer to a new string which is a duplicate of the string str. Memory for the new string is obtained with malloc, and can be freed with free.
+
+* Returns NULL if str = NULL
+
+* On success, the _strdup function returns a pointer to the duplicated string. It returns NULL if insufficient memory was available
