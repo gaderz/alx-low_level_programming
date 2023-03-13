@@ -36,7 +36,7 @@ Write a function that creates an array of chars, and initializes it with a speci
 
 * Returns a pointer to the array, or NULL if it fails.
 
-## TASKE 1 ##
+## TASK 1 ##
 
 
 ## The woman who has no imagination has no wings ##
@@ -51,7 +51,7 @@ Write a function that returns a pointer to a newly allocated space in memory, wh
 
 * On success, the _strdup function returns a pointer to the duplicated string. It returns NULL if insufficient memory was available
 
-## TASKE 2 ## 
+## TASK 2 ## 
 
 ## He who is not courageous enough to take risks will accomplish nothing in life ##
 
@@ -64,3 +64,18 @@ Write a function that concatenates two strings.
 * if NULL is passed, treat it as an empty string
 
 * The function should return NULL on failure
+
+
+## TASK 3 ##
+
+## If you even dream of beating me you'd better wake up and apologize ##
+
+Write a function that returns a pointer to a 2 dimensional array of integers.
+
+* Prototype: int **alloc_grid(int width, int height);
+
+* Each element of the grid should be initialized to 0
+
+* The function should return NULL on failure
+
+* If width or height is 0 or negative, return NULL
