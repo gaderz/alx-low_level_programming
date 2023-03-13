@@ -19,7 +19,6 @@ int count_words(char *str)
 			++words;
 		}
 	}
-
 	return (words);
 }
 /**
@@ -37,49 +36,34 @@ char **strtow(char *str)
 	{
 		return (NULL);
 	}
-
 	words = count_words(str);
-
 	arr = malloc(sizeof(char *) * (words + 1));
 	if (arr == NULL)
 	{
 		return (NULL);
 	}
-
 	for (i = 0, j = 0; i < words; ++i)
 	{
 		while (str[j] == ' ')
-		{
 			++j;
-		}
-
 		len = 0;
 		while (str[j + len] != ' ' && str[j + len] != '\0')
-		{
 			++len;
-		}
-
 		arr[i] = malloc(sizeof(char) * (len + 1));
 		if (arr[i] == NULL)
 		{
 			for (k = 0; k < i; ++k)
-			{
 				free(arr[k]);
-			}
 			free(arr);
 			return (NULL);
 		}
-
 		for (k = 0; k < len; ++k)
 		{
 			arr[i][k] = str[j + k];
 		}
 		arr[i][k] = '\0';
-
 		j += len;
 	}
-
 	arr[i] = NULL;
-
 	return (arr);
 }
