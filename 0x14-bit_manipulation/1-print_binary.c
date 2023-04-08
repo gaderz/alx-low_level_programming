@@ -30,7 +30,7 @@ void print_binary(unsigned long int n)
 	}
 
 	/* If n was 0, print a single 0 */
-	if (count == 0)
+	if (mask == 0)
 	{
 		_putchar('0');
 	}
